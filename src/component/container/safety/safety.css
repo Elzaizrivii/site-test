@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Gilroy-Light; /* Имя шрифта */
+    src: url(../../../fonts/Gilroy-Light.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Gilroy; /* Имя шрифта */
+    src: url(../../../fonts/Gilroy-ExtraBold.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Roboto-Medium; /* Имя шрифта */
+    src: url(../../../fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+.container {
+    display: flex;
+    background: #F0F0F0;
+    margin-right: 60px;
+}
+
+.container_safety__image {
+    width: 758px;
+    height: 840px;
+    background: url(../../../image/photo/safety.png);
+}
+
+.container_info {
+    width: 759px;
+    height: 840px;
+}
+
+.content {
+    margin: 326px 152px 0 175px;
+}
+
+.content_header {
+    font-family: Gilroy;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #262525;
+    line-height: 54px;
+    padding-bottom: 40px;
+}
+
+.content_text {
+    text-overflow: ellipsis;
+    font-family: Roboto-Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #262525;
+}
+
+.content_text__button{
+    background: #262525;
+    width: 28px;
+    height: 28px;
+    color: #fff;
+    position: relative;
+    bottom: 5px;
+    outline: none;
+    border: none;
+    padding-bottom: 9px;
+    text-align: center;
+}
+
+.navigation {
+    padding-top: 151px;
+    font-family: Gilroy-Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #505050;
+}

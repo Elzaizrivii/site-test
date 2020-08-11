@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url(../../fonts/Roboto-Bold.ttf);
+}
+
+.leftMenu {
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.leftMenu_header {
+    display: flex;
+    padding: 25px 0 0 24px;
+}
+
+.leftMenu_header__icon {
+    width: 70px;
+    height: 70px;
+    background: url(../../image/icon/IconLogo.png);
+    position: relative;
+}
+
+.leftMenu_header__name {
+    padding-left: 23px;
+    font-family: Gilroy;
+    color: #262525;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.scrolls {
+    display: flex;
+    margin-top: 18px;
+    padding: 260px 0 0 60px;
+    width: auto;
+    flex-direction: column;
+}
+
+.scrolls_item {
+    font-family: Roboto;
+    color: #505050;
+    font-size: 13px;
+    margin-bottom: 32px;
+    line-height: 15px;
+    font-style: normal;
+    width: fit-content;
+    text-decoration: none;
+    position: relative;
+    font-stretch: inherit;
+    display: inline-block;
+}
+
+.scrolls_item:hover {
+    width: fit-content;
+    box-shadow: 0 2px #EBD8CC, inset 0 -7px 0 #EBD8CC;
+}
+
+.scrolls_item1:hover {
+    width: fit-content;
+    box-shadow: 0 2px #EBD8CC, inset 0 -7px 0 #EBD8CC;
+}
+
+.scrolls_item3:hover {
+    width: fit-content;
+    box-shadow: 0 2px #EBD8CC, inset 0 -7px 0 #EBD8CC;
+}
+
+
+
+.scrolls_item1 {
+    font-family: Roboto;
+    color: #505050;
+    font-size: 13px;
+    margin-bottom: 32px;
+    line-height: 15px;
+    font-style: normal;
+    width: fit-content;
+    text-decoration: none;
+    position: relative;
+    font-stretch: inherit;
+    display: inline-block;
+}
+
+.scrolls_item3 {
+    font-family: Roboto;
+    color: #505050;
+    font-size: 13px;
+    margin-bottom: 32px;
+    line-height: 15px;
+    font-style: normal;
+    width: fit-content;
+    text-decoration: none;
+    position: relative;
+    font-stretch: inherit;
+    display: inline-block;
+}
+
+.scrolls_active1 {
+    font-family: Roboto-bold;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #262525;
+    display: inline-block;
+    font-style: normal;
+    font-size: 14px;
+    width: fit-content;
+    line-height: 16px;
+    align-items: center;
+    box-shadow: 0 2px #EBD8CC, inset 0 -7px 0 #EBD8CC;
+}
+
+
+.scrolls_active3 {
+    text-transform: uppercase;
+    font-family: Roboto-bold;
+    width: fit-content;
+    align-items: center;
+    font-weight: normal;
+    color: #262525;
+    font-style: normal;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 16px;
+    box-shadow: 0 2px #EBD8CC, inset 0 -7px 0 #EBD8CC;
+}

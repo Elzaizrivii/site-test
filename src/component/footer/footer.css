@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Gilroy-Light; /* Имя шрифта */
+    src: url(../../fonts/Gilroy-Light.otf); /* Путь к файлу со шрифтом */
+}
+
+.footer {
+    display: flex;
+    width: 1920px;
+    height: 60px;
+    font-family: Gilroy-Light;
+    font-style: normal;
+    font-size: 13px;
+    padding-left: 60px;
+    line-height: 15px;
+    align-items: center;
+    color: #505050;
+    text-transform: uppercase;
+}

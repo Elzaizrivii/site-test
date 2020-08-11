@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+    width: 1920px;
+    flex-wrap: wrap;
+    height: 960px;
+}
